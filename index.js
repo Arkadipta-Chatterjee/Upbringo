@@ -34,7 +34,7 @@ app.post("/", (req, res) => {
   let total_amt = req.query.total_amt;
   let invoice_status = req.query.invoice_status;
   let sql =
-    "INSERT INTO shopdetails(Name,Email,Contact,Address)VALUES(?,?,?,?)";
+    "INSERT INTO shopdetails(Name,Email,Contact,Address,Buyer,Buyer_Contact,Date_Time,overallTotal,Item_Name,Item_Quantity,Item_Price_per_Quantity,Discount,GST,total_amt,invoice_status)VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
   con.query(
     sql,
     [
