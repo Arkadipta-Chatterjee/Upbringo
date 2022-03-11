@@ -1,0 +1,24 @@
+{
+  "name": "upbringo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arkadipta-Chatterjee/Upbringo.git"
+  },
+  "author": "Arkadipta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arkadipta-Chatterjee/Upbringo/issues"
+  },
+  "homepage": "https://github.com/Arkadipta-Chatterjee/Upbringo#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
