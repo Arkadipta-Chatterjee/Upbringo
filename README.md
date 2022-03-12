@@ -1,4 +1,4 @@
-Backend framework for Upbringo
+**Backend framework for Upbringo**
 
 The framework is basically designed in NodeJS that accepts request from Postman and works on a mySQL database in localhost.
 So basically the parameters for which values need to be entered by the user to see the functionality of the API backend framework are:
